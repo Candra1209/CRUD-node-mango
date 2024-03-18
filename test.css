@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.wadah {
+    width: 100%;
+    height: 100%;
+
+}
+
+.wadah.relatif {
+    position: relative;
+}
+
+.wadah.latar-belakang-primary{
+    background-color: #1F2421;
+}
+
+.container-fluid.latar-belakang-3{
+    background-color: #49A078;
+}
+
+.wadah.absolut{
+    position: absolute;
+}
+
+.gambar {
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    right: 0;
+}
+
+.gambar.latar-belakang {
+    width: 60%;
+    height: 100%;
+    background-image: url(./gambar/background_1.jpg);
+    background-repeat: no-repeat;
+    opacity: 85%;
+}
+
+.tindih {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,#1F2421 60%,90%,rgba(255, 255, 255, 0));
+}
+
+/* style untuk gaya penulisan*/
+.tulisan-sampul{
+    margin-top: 30vh;
+    margin-left: 20vw;
+    margin-right: 25vw;
+}
+h1{
+    font-size: 55px;
+    font-family: "Lobster";
+}
+
+h1 + h1{
+    color: #49A078;
+}
+p {
+    font-family: poppins;
+    font-size: 15px;
+    padding-left: 2vw;
+}
+p.putih{
+    color: white;
+}
+
+.cover-font{
+    padding: 5px;
+}
+.cover-font.putih{
+    color: white;
+}
+.cover-font .hijau {
+    color: #49A078;
+}
+
+.fullscreen {
+    background-color: #49A078;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+
+}
