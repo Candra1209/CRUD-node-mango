@@ -93,13 +93,21 @@ section :target {
     font-family: Lobster;
     color: white;
     font-size: 20px;
-    padding-bottom: 20px;
 }
-.link-lobster:hover {
-    font-family: Lobster;
-    font-size: 25px;
+
+.link-lobster:hover,
+.link-lobster:active,
+.link-lobster:focus {
+    border: 2px solid white;
+    border-radius: 50px;
     color: white;
-    padding-bottom: 10px;
+    background-color: wh;
+}
+
+.nav-link.active {
+    border-radius: 50px;
+    color :#49A078;
+    
 }
 
 /* style untuk gaya penulisan*/
