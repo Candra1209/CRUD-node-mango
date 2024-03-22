@@ -139,14 +139,14 @@ div.grid-project {
         display: grid;
         height: 350px;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 1rem;
+        gap: 2rem;
     }
 }
 
 div.grid-project > div {
     max-width: 500px;
     min-width: 300px;
-    background-color: #DCE1DE;
+    background-color: #f3f3f3;
     border-radius: 20px;
     padding: 1rem;
     box-shadow: 2px 2px 5px;
@@ -184,7 +184,7 @@ div.grid-project > div > div:hover{
 
 div.grid-project > div > div > div > badge {
     font-family: Poppins;
-    font-size: 10px;
+    font-size: 11px;
     border: 1px solid chartreuse;
     border-radius: 10px;
     color: darkblue;
@@ -197,6 +197,11 @@ div.grid-project > div > div > div > badge + badge {
     border: grey;
     color: black;
     
+}
+div.grid-project > div > div > div > badge.belsai{
+    border: 1px solid crimson;
+    background-color: crimson;
+    color: white;
 }
 
 /* style untuk gaya penulisan*/
